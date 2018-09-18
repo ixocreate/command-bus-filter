@@ -9,7 +9,7 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\CommandBusValidation;
+namespace KiwiSuite\CommandBusFilter;
 
 use KiwiSuite\Contract\CommandBus\CommandInterface;
 use KiwiSuite\Contract\CommandBus\DispatchInterface;
