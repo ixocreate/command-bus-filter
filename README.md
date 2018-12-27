@@ -1,21 +1,28 @@
 **This is a draft. Don't use in production**
 
-# kiwi-suite/command-bus-filter
+# IXOCREATE command-bus-filter
 
-[![Build Status](https://travis-ci.org/kiwi-suite/command-bus-filter.svg?branch=master)](https://travis-ci.org/kiwi-suite/command-bus-filter)
-[![Coverage Status](https://coveralls.io/repos/github/kiwi-suite/command-bus-filter/badge.svg?branch=develop)](https://coveralls.io/github/kiwi-suite/command-bus-filter?branch=develop)
-[![Packagist](https://img.shields.io/packagist/v/kiwi-suite/command-bus-filter.svg)](https://packagist.org/packages/kiwi-suite/command-bus-filter)
-[![Packagist Pre Release](https://img.shields.io/packagist/vpre/kiwi-suite/command-bus-filter.svg)](https://packagist.org/packages/kiwi-suite/command-bus-filter)
-[![Packagist](https://img.shields.io/packagist/l/kiwi-suite/command-bus-filter.svg)](https://packagist.org/packages/kiwi-suite/command-bus-filter)
+[![Build Status](https://travis-ci.org/ixocreate/command-bus-filter.svg?branch=master)](https://travis-ci.org/ixocreate/command-bus-filter)
+[![Coverage Status](https://coveralls.io/repos/github/ixocreate/command-bus-filter/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/command-bus-filter?branch=develop)
+[![Packagist](https://img.shields.io/packagist/v/ixocreate/command-bus-filter.svg)](https://packagist.org/packages/ixocreate/command-bus-filter)
+[![Packagist Pre Release](https://img.shields.io/packagist/vpre/ixocreate/command-bus-filter.svg)](https://packagist.org/packages/ixocreate/command-bus-filter)
+[![Packagist](https://img.shields.io/packagist/l/ixocreate/command-bus-filter.svg)](https://packagist.org/packages/ixocreate/command-bus-filter)
 
 ## Installation
 
-The suggested installation method is via [composer](https://getcomposer.org/):
+Install the package via composer:
 
 ```sh
-php composer.phar require kiwi-suite/command-bus-filter
+composer require ixocreate/:package_name
+```
+
+## Testing
+
+```sh
+composer install --dev
+phpunit
 ```
 
 ## License
 
-kiwi-suite/command-bus is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) - see the `LICENSE` file for details
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
