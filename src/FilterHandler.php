@@ -9,13 +9,13 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\CommandBusFilter;
+namespace Ixocreate\CommandBusFilter;
 
-use KiwiSuite\Contract\CommandBus\CommandInterface;
-use KiwiSuite\Contract\CommandBus\DispatchInterface;
-use KiwiSuite\Contract\CommandBus\HandlerInterface;
-use KiwiSuite\Contract\CommandBus\ResultInterface;
-use KiwiSuite\Filter\Filter;
+use Ixocreate\Contract\CommandBus\CommandInterface;
+use Ixocreate\Contract\CommandBus\DispatchInterface;
+use Ixocreate\Contract\CommandBus\HandlerInterface;
+use Ixocreate\Contract\CommandBus\ResultInterface;
+use Ixocreate\Filter\Filter;
 
 final class FilterHandler implements HandlerInterface
 {
