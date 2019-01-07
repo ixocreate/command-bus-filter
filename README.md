@@ -1,5 +1,3 @@
-**This is a draft. Don't use in production**
-
 # IXOCREATE command-bus-filter
 
 [![Build Status](https://travis-ci.com/ixocreate/command-bus-filter.svg?branch=master)](https://travis-ci.com/ixocreate/command-bus-filter)
@@ -13,7 +11,7 @@
 Install the package via composer:
 
 ```sh
-composer require ixocreate/:package_name
+composer require ixocreate/command-bus-filter
 ```
 
 ## Testing
